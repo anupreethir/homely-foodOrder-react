@@ -15,7 +15,6 @@ const RestaurantMenu = () => {
   if (!resMenu) {
     return <ShimmerUi></ShimmerUi>;
   }
-  console.log(resMenu);
   const resMenuList = resMenu.cards[2].groupedCard.cardGroupMap.REGULAR.cards;
 
   const menuCategory = resMenuList.filter((res) => res.card?.card?.["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"

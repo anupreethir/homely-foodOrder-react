@@ -20,8 +20,8 @@ const ResCard = (props) => {
 
         <div className="flex justify-between mt-[6px]">
           <div className="font-semibold whitespace-nowrap overflow-hidden overflow-ellipsis w-[70%]">{name}</div>
-          <div className="rounded-md flex items-center bg-green h-[25px]  px-[3px] py-[1px]">
-            <div className="text-[#fff] text-md font-normal">{avgRating} </div>
+          <div className="rounded-md flex items-center z-40 bg-green-700 h-[25px] z- px-[3px] py-[1px]">
+            <div className="text-white text-md font-normal">{avgRating} </div>
             <IoStar className="text-white w-4 pl-1" />
           </div>
         </div>
