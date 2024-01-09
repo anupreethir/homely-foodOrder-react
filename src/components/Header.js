@@ -1,8 +1,8 @@
 import { useState } from "react";
 // import homelyLogo from "/assests/Homely-logos_transparent.png";
 import { Link } from "react-router-dom";
-import UseOnline from "../utils/useOnline";
-import UserContext from "../utils/userContext";
+import UseOnline from "../utils/UserOnline";
+import UserContext from "../utils/UserContext";
 import { useContext } from "react"
 import { useSelector } from "react-redux";
 const Header = () => {
